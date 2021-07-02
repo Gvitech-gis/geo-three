@@ -9,7 +9,7 @@ import {LODRaycast} from './lod/LODRaycast';
 import {MapProvider} from './providers/MapProvider';
 import {LODControl} from './lod/LODControl';
 import {MapMartiniHeightNode} from './nodes/MapMartiniHeightNode';
-
+import {Layer} from './interface/Layer';
 /**
  * Map viewer is used to read and display map tiles from a server.
  *
@@ -76,6 +76,12 @@ export class MapView extends Mesh
 	 * Should only be set on creation.
 	 */
 	public root: MapNode = null;
+
+	/**
+	 *图层集合
+	 *
+	 */
+	public mapLayers: Array<Layer> =[]
 
 	/**
 	 * Constructor for the map view objects.
