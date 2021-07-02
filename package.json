@@ -50,5 +50,11 @@
 		"three": "~0.125.0",
 		"typedoc": "^0.20.36",
 		"typescript": "^4.2.4"
+	},
+	"dependencies": {
+		"earcut": "^2.2.2",
+		"geojson-merge": "^0.3.0",
+		"lodash.assign": "^4.2.0",
+		"topojson": "^3.0.2"
 	}
 }
